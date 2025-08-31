@@ -1,10 +1,10 @@
-#📚 Book API (Express.js)
+# Book API (Express.js)
 
 A simple RESTful API built with Express.js
 .
 This API allows you to manage a collection of books with basic CRUD operations.
 
-##🚀 Features
+## Features
 
 Get all books
 
@@ -16,7 +16,7 @@ Update an existing book
 
 Delete a book
 
-##🛠️ Tech Stack
+## Tech Stack
 
 Node.js – JavaScript runtime
 
@@ -24,7 +24,7 @@ Express.js – Web framework for building APIs
 
 Postman / cURL – For testing endpoints
 
-##📂 Project Setup
+## Project Setup
 
 Clone the repo:
 
@@ -43,7 +43,7 @@ The API will run at:
 
 http://localhost:3000
 
-##📖 API Endpoints
+## API Endpoints
 🔹 Get all books
 GET /books
 
@@ -73,7 +73,7 @@ Body (JSON):
 🔹 Delete a book
 DELETE /books/:id
 
-##🧪 Testing with Postman
+## Testing with Postman
 
 Open Postman and create a new request.
 
@@ -88,7 +88,7 @@ Example:
 "author": "J.R.R. Tolkien"
 }
 
-##📌 Notes
+## Notes
 
 This project uses an in-memory database (array). Data will reset when the server restarts.
 
